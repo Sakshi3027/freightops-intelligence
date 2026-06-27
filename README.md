@@ -43,6 +43,8 @@ XGBoost Classifier (delay prediction)
 ## Results
 
 - Accuracy: 1.000
+![SHAP Feature Importance](docs/shap_summary.png)
+
 - Features: delay_seconds, delay_minutes, stop_num
 - Training data: 411 rows | Test data: 103 rows
 - Data source: BART real-time GTFS-RT feed
