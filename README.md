@@ -5,23 +5,8 @@ Ingests live GTFS-RT feeds from BART, transforms through a bronze→silver→gol
 architecture, and classifies delays using XGBoost.
 
 ## Architecture
-GTFS-RT (BART live feed)
 
-↓
-
-Bronze Delta Table (raw stop-time updates)
-
-↓
-
-Silver Delta Table (cleaned delays + bucketing)
-
-↓
-
-Gold Delta Table (stop-level aggregated features)
-
-↓
-
-XGBoost Classifier (delay prediction)
+![Architecture](docs/architecture.png)
 
 ## Tech stack
 
